@@ -1,0 +1,19 @@
+body {
+  scroll-behavior: smooth;
+}
+
+.bg-header {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url('/assets/header-bg.jpg') no-repeat center center/cover;
+  height: 90vh;
+}
+
+.bg-gradient {
+  background: linear-gradient(to right, #4e54c8, #8f94fb);
+}
+
+.card {
+  transition: transform 0.3s ease-in-out;
+}
+.card:hover {
+  transform: scale(1.05);
+}

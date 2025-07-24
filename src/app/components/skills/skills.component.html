@@ -1,0 +1,15 @@
+<section id="skills" class="py-5 bg-light text-dark">
+  <div class="container">
+    <h2 class="text-center mb-4">skills</h2>
+    <div class="row justify-content-center">
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4" *ngFor="let skill of skills">
+        <div class="card h-100 text-center shadow-sm border-0">
+          <div class="card-body">
+            <img [src]="skill.img" [alt]="skill.name" class="img-fluid mb-3" style="height: 80px; object-fit: contain;">
+            <h5 class="card-title">{{ skill.name }}</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

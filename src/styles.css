@@ -1,1 +1,36 @@
-/* You can add global styles to this file, and also import other style files */
+
+body {
+  padding: 10px;
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', sans-serif; 
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 45px;
+  height: 45px;
+  background-color: #dc3545; 
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 24px;
+  z-index: 999;
+  display: none;
+  transition: all 0.3s ease;
+}
+
+.back-to-top:hover {
+  background-color: #bd2130;
+  transform: scale(1.1);
+}
+
