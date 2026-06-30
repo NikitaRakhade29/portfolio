@@ -1,30 +1,78 @@
 # Portfolio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16.
+A personal portfolio website built with [Angular](https://angular.io/) and styled with [Bootstrap](https://getbootstrap.com/).
 
-## Development server
+## Tech Stack
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Framework:** Angular (CLI v16.2.16)
+- **Language:** TypeScript
+- **Styling:** HTML, CSS, Bootstrap 5.3.7
 
-## Code scaffolding
+## Getting Started
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) and npm
+- [Angular CLI](https://angular.io/cli) installed globally:
+  ```bash
+  npm install -g @angular/cli
+  ```
+
+### Installation
+
+```bash
+git clone https://github.com/NikitaRakhade29/portfolio.git
+cd portfolio
+npm install
+```
+
+### Development Server
+
+Run a local dev server:
+
+```bash
+ng serve
+```
+
+Navigate to `http://localhost:4200/`. The app will automatically reload when you change any source files.
+
+## Code Scaffolding
+
+Generate a new component:
+
+```bash
+ng generate component component-name
+```
+
+You can also generate `directive | pipe | service | class | guard | interface | enum | module`.
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```bash
+ng build
+```
 
-## Running unit tests
+Build artifacts are stored in the `dist/` directory.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Running Unit Tests
 
-## Running end-to-end tests
+```bash
+ng test
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Runs unit tests via [Karma](https://karma-runner.github.io).
 
-## Further help
+## Running End-to-End Tests
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+ng e2e
+```
 
-## Bootstrap used 
-npm i bootstrap@5.3.7
+Requires a package implementing e2e testing capabilities to be added first.
+
+## Further Help
+
+For more on the Angular CLI, run `ng help` or see the [Angular CLI Overview and Command Reference](https://angular.io/cli).
+
+
+No license specified.
