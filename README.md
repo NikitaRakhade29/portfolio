@@ -74,5 +74,3 @@ Requires a package implementing e2e testing capabilities to be added first.
 
 For more on the Angular CLI, run `ng help` or see the [Angular CLI Overview and Command Reference](https://angular.io/cli).
 
-
-No license specified.
